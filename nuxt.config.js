@@ -63,5 +63,5 @@ export default {
     // other configs
   },
   // 加载插件
-  plugins: ['~/plugins/request.js','~/plugins/dayjs.js','~/plugins/elementui.js' ]
+  plugins: ['./plugins/request.js','./plugins/dayjs.js','./plugins/elementui.js' ]
 }
