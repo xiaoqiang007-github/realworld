@@ -1,7 +1,7 @@
 export default {
   server: {
     port: 8000, // default: 3000
-    host: '0.0.0.0' // default: localhost
+    host: '0.0.0.0' // default: localhost只能用于本机访问，如果需要对外访问需要设置0.0.0.0
   },
   router: {
     linkActiveClass: 'active',

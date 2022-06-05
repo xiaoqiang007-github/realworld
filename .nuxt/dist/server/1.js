@@ -52,7 +52,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/home/index.vue?vue&type=template&id=3142eb32&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/home/index.vue?vue&type=template&id=315d2496&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_vm._ssrNode("<div class=\"banner\"><div class=\"container\"><h1 class=\"logo-font\">conduit</h1> <p>A place to share your knowledge.</p></div></div> "),_vm._ssrNode("<div class=\"container page\">","</div>",[_vm._ssrNode("<div class=\"row\">","</div>",[_vm._ssrNode("<div class=\"col-md-9\">","</div>",[_vm._ssrNode("<div class=\"feed-toggle\">","</div>",[_vm._ssrNode("<ul class=\"nav nav-pills outline-active\">","</ul>",[(_vm.user)?_vm._ssrNode("<li class=\"nav-item\">","</li>",[_c('nuxt-link',{staticClass:"nav-link",class:{
                   active: _vm.tab === 'your_feed',
                 },attrs:{"exact":"","to":{
@@ -78,20 +78,20 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
                     tab: 'tag',
                     tag: _vm.tag,
                   },
-                }}},[_vm._v("# "+_vm._s(_vm.tag))])],1):_vm._e()],2)]),_vm._ssrNode(" "),_vm._l((_vm.articleList),function(item){return _vm._ssrNode("<div class=\"article-preview\">","</div>",[_vm._ssrNode("<div class=\"article-meta\">","</div>",[_c('nuxt-link',{attrs:{"to":{
+                }}},[_vm._v("# "+_vm._s(_vm.tag))])],1):_vm._e()],2)]),_vm._ssrNode(" "),_vm._l((_vm.articleList),function(item){return (_vm.articleList && _vm.articleList.length>0)?_vm._ssrNode("<div class=\"article-preview\">","</div>",[_vm._ssrNode("<div class=\"article-meta\">","</div>",[_c('nuxt-link',{attrs:{"to":{
                 name: 'profile',
                 params: { username: item.author.username },
               }}},[_c('img',{attrs:{"src":item.author.image}})]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"info\">","</div>",[_c('nuxt-link',{staticClass:"author",attrs:{"to":{
                   name: 'profile',
                   params: { username: item.author.username },
-                }}},[_vm._v(_vm._s(item.author.username))]),_vm._ssrNode(" <span class=\"date\">"+_vm._ssrEscape(_vm._s(_vm._f("date")(item.createdAt)))+"</span>")],2),_vm._ssrNode(" <button"+(_vm._ssrAttr("disabled",item.isDisable))+(_vm._ssrClass("btn btn-outline-primary btn-sm pull-xs-right",item.favorited ? 'active' : ''))+"><i class=\"ion-heart\"></i>"+_vm._ssrEscape(" "+_vm._s(item.favoritesCount)+"\n            ")+"</button>")],2),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"preview-link",attrs:{"to":{ name: item.author.username === _vm.user.username? 'editor' :'article', query: { slug: item.slug } }}},[_c('h1',[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(item.body))]),_vm._v(" "),_c('span',[_vm._v("Read more...")])])],2)})],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pagetion-wrapper col-md-9\">","</div>",_vm._l((_vm.totalPage),function(pageItem){return _c('nuxt-link',{key:pageItem,staticClass:"pagetion",class:{ 'pagetion-active': pageItem === _vm.page },attrs:{"to":{
+                }}},[_vm._v(_vm._s(item.author.username))]),_vm._ssrNode(" <span class=\"date\">"+_vm._ssrEscape(_vm._s(_vm._f("date")(item.createdAt)))+"</span>")],2),_vm._ssrNode(" <button"+(_vm._ssrAttr("disabled",item.isDisable))+(_vm._ssrClass("btn btn-outline-primary btn-sm pull-xs-right",item.favorited ? 'active' : ''))+"><i class=\"ion-heart\"></i>"+_vm._ssrEscape(" "+_vm._s(item.favoritesCount)+"\n            ")+"</button>")],2),_vm._ssrNode(" "),_c('nuxt-link',{staticClass:"preview-link",attrs:{"to":{ name: (_vm.user && _vm.user.username && item.author.username === _vm.user.username) ? 'editor' :'article', query: { slug: item.slug } }}},[_c('h1',[_vm._v(_vm._s(item.title))]),_vm._v(" "),_c('p',[_vm._v(_vm._s(item.body))]),_vm._v(" "),_c('span',[_vm._v("Read more...")])])],2):_vm._e()})],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"pagetion-wrapper col-md-9\">","</div>",_vm._l((_vm.totalPage),function(pageItem){return _c('nuxt-link',{key:pageItem,staticClass:"pagetion",class:{ 'pagetion-active': pageItem === _vm.page },attrs:{"to":{
             name: 'homeIndex',
             query: { page: pageItem, tag: _vm.$route.query.tag, tab: _vm.tab },
           }}},[_vm._v("\n          "+_vm._s(pageItem))])}),1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"col-md-9\">","</div>",[_vm._ssrNode("<div class=\"sidebar\">","</div>",[_vm._ssrNode("<p>Popular Tags</p> "),_vm._ssrNode("<div class=\"tag-list\">","</div>",_vm._l((_vm.tags),function(tag,index){return _c('nuxt-link',{key:index,staticClass:"tag-pill tag-default",attrs:{"to":{ name: 'homeIndex', query: { tab: 'tag', tag: tag } }}},[_vm._v(_vm._s(tag))])}),1)],2)])],2)])],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/home/index.vue?vue&type=template&id=3142eb32&
+// CONCATENATED MODULE: ./pages/home/index.vue?vue&type=template&id=315d2496&
 
 // EXTERNAL MODULE: ./plugins/request.js
 var request = __webpack_require__(5);
@@ -322,6 +322,7 @@ var external_vuex_ = __webpack_require__(3);
 //
 //
 //
+//
 
 
 
@@ -342,6 +343,7 @@ var external_vuex_ = __webpack_require__(3);
     query,
     store
   }) {
+    console.log('asyncData');
     const page = Number.parseInt(query.page || 1);
     const limit = 2;
     const tag = query.tag; // const { data } = await getArticleList({
@@ -355,8 +357,8 @@ var external_vuex_ = __webpack_require__(3);
     // console.log('tags', tags)
 
     const tab = query.tab || 'global_feed'; // if(store.state.user.user)
+    // console.log('store.state.user', store.state)
 
-    console.log('store.state.user', store.state);
     const getArticleFn = store.state.user.user && tab === 'your_feed' ? getarticlesFeed : getArticleList;
     const [articlesObj, tagsObj] = await Promise.all([getArticleFn({
       limit,
@@ -366,8 +368,8 @@ var external_vuex_ = __webpack_require__(3);
     const {
       articles,
       articlesCount
-    } = articlesObj.data;
-    console.log('articlesObj.articles', articles);
+    } = articlesObj.data; // console.log('articlesObj.articles', articles)
+
     articles.forEach(article => {
       article.isDisable = false;
     });
@@ -392,6 +394,11 @@ var external_vuex_ = __webpack_require__(3);
 
     ...Object(external_vuex_["mapState"])("user", ["user"])
   },
+
+  mounted() {
+    console.log('user', this.user);
+  },
+
   methods: {
     async clickFn(item) {
       item.isDisable = true;

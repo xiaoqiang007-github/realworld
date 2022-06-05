@@ -631,8 +631,7 @@ __webpack_require__.r(__webpack_exports__);
   redirect
 }) {
   // If the user is not authenticated
-  console.log('store.state', store.state);
-
+  // console.log('store.state', store.state)
   if (!store.state.user.user) {
     return redirect('/login');
   }
@@ -746,7 +745,7 @@ const actions = {
     req,
     res
   }) {
-    console.log('nuxtServerInit00', req.headers);
+    // console.log('nuxtServerInit00', req.headers)
     let user = null; // 将cookie初始化到容器中
     // console.log(window.document.cookie)
 
@@ -1022,7 +1021,7 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: false,
+      isStatic: true,
       isDev: false,
       isHMR: false,
       app,
@@ -2279,6 +2278,10 @@ const layouts = {
 
     isFetching() {
       return this.nbFetching > 0;
+    },
+
+    isPreview() {
+      return Boolean(this.$options.previewData);
     }
 
   },

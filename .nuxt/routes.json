@@ -6,38 +6,46 @@
       {
         "path": "",
         "name": "homeIndex",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\home"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\home",
+        "_name": "_62dfe00a"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_03aa37cd"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_03aa37cd"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\profile"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\profile",
+        "_name": "_c9bb6de6"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\settings"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\settings",
+        "_name": "_5a66e93f"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\editor"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\editor",
+        "_name": "_6510e589"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\article"
+        "component": "D:\\\\360MoveData\\\\Users\\\\goodDream\\\\Desktop\\\\lagou\\\\code\\\\3-part3\\\\realworld-nuxtjs\\\\pages\\\\article",
+        "_name": "_fc26e74c"
       }
-    ]
+    ],
+    "_name": "_70dfbf46"
   }
 ]

@@ -32,7 +32,7 @@ export const mutations = {
 
 export const actions = {
   nuxtServerInit ({ commit }, { req, res }) {
-    console.log('nuxtServerInit00', req.headers)
+    // console.log('nuxtServerInit00', req.headers)
     let user = null
     // 将cookie初始化到容器中
     // console.log(window.document.cookie)

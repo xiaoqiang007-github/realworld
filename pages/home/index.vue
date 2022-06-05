@@ -71,6 +71,7 @@
 
           <div
             class="article-preview"
+            v-if="articleList && articleList.length>0"
             v-for="item in articleList"
             :key="item.slug"
           >
@@ -103,7 +104,7 @@
               </button>
             </div>
             <nuxt-link
-              :to="{ name: item.author.username === user.username? 'editor' :'article', query: { slug: item.slug } }"
+              :to="{ name: (user && user.username && item.author.username === user.username) ? 'editor' :'article', query: { slug: item.slug } }"
               class="preview-link"
             >
               <h1>{{ item.title }}</h1>
@@ -200,6 +201,7 @@ export default {
     }
   },
   async asyncData ({ query, store }) {
+    console.log('asyncData')
     const page = Number.parseInt(query.page || 1);
     const limit = 2
     const tag = query.tag
@@ -214,7 +216,7 @@ export default {
     // console.log('tags', tags)
     const tab = query.tab || 'global_feed'
     // if(store.state.user.user)
-    console.log('store.state.user', store.state)
+    // console.log('store.state.user', store.state)
     const getArticleFn = store.state.user.user && tab === 'your_feed' ? getarticlesFeed : getArticleList
 
     const [articlesObj, tagsObj] = await Promise.all([getArticleFn({
@@ -225,7 +227,7 @@ export default {
     getTags()]
     )
     const { articles, articlesCount } = articlesObj.data
-    console.log('articlesObj.articles', articles)
+    // console.log('articlesObj.articles', articles)
     articles.forEach(article => {
       article.isDisable = false
     })
@@ -245,6 +247,9 @@ export default {
       return Math.ceil(this.articlesCount / this.limit)
     },
     ...mapState("user", ["user"])
+  },
+  mounted() {
+    console.log('user', this.user)
   },
   methods: {
     async clickFn (item) {
